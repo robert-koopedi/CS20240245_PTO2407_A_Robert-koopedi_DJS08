@@ -17,7 +17,12 @@
 function App() {
 
   return (
-    <h1>Start here</h1>
+    // <h1>Start here</h1>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<home />}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 
